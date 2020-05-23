@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           reaction-token: ${{ secrets.GITHUB_TOKEN }}
           commands: deploy
-          reaction-type: hooray
+          reactions: hooray
           permission: write
           issue-type: pull-request
           named-args: true
