@@ -14,7 +14,7 @@ def main(service):
     output_data = service.run(input_data)
     predictions = output_data.get("predict")
     assert type(predictions) == list
-
+    print("asserted type(predictions) == list")
 
 if __name__ == "__main__":
     main()
