@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           reaction-token: ${{ secrets.GITHUB_TOKEN }}
-          commands: deploy
+          commands: aml-deploy
           reactions: hooray
           permission: write
           issue-type: pull-request
